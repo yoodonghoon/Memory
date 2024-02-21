@@ -20,6 +20,6 @@ c#의 모든 형식은 System.Object를 상속 받기 때문에 가능한 것인
 무심코 썼다가는 큰일이 납니다.
 
 boxing을 하게되면 힙에 새로운 객체로 할당이 되어서 메모리를 할당하거나 해제할때에 비용이 발생되고
-unboxing은 형식 변환작업이 수행되기 때문에 성능저하가 일어나기에 사용하면 안됩니다.
+unboxing은 형식 변환작업이 수행되기 때문에 성능저하가 일어나기에 가급적 사용하면 안됩니다.
 
 이를 피하기 위해 만들어진게 [Generic](https://github.com/yoodonghoon/Memory/blob/main/Unity/Generic.md) 입니다.
