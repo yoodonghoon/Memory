@@ -1,1 +1,1 @@
-https://github.com/yoodonghoon/Memory/files/14357404/106350-327457-12225497.1.pdf
+![un4](https://github.com/yoodonghoon/Memory/assets/145320150/9f38be3d-7b55-4b94-a8bd-416d8140ebcf)
