@@ -6,9 +6,11 @@
 int a= 42;
 
 // Boxing
+
 object b= a
 
 // Unboxing
+
 int c= (int)b;
 
 위의 예제를 보면 좀 이해가 갈것입니다.
