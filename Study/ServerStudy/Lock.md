@@ -15,9 +15,13 @@
   
 이때 조금만 기다리면 쓸 수 있을거 같은데 컨텍스트 스위칭을 하면서 괜히 부하를 줄 필요가 있을까?에서 개발된 방법입니다.
 
-![image](https://github.com/yoodonghoon/Memory/assets/145320150/38523ac8-dede-4951-8ab7-5042f69196ba)
+![image](https://github.com/yoodonghoon/Memory/assets/145320150/cdffbc75-d467-43f0-bf3b-47d7a36676d3)
 
 SpinLock 클래스를 만들어 주고 Acquire 함수에서 무한루프를 돌면서 기다려주는 방식입니다.
+
+Acquire의 while문에서 Interlocked.CompareExchange 함수를 사용해서 현재 Lock값이 0인지 확인을 하는 겁니다.
+
+0이라는 값이라면 아무도 사용하지 않는다고 판단하고 Lock을1로 변경해주고 while을 탈출합니다.
 
 ![image](https://github.com/yoodonghoon/Memory/assets/145320150/2713a7c8-3df9-4213-a9e2-6d822b448051)
 
