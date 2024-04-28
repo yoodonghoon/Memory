@@ -1,5 +1,7 @@
 유니티 URP 매뉴얼: https://docs.unity3d.com/kr/2023.2/Manual/universal-render-pipeline.html
 
+참고하면 좋은 영상 : https://www.youtube.com/watch?v=wNFjsi6MjAQ
+
 # Built in RP
 
 우선 URP를 설명하기 전에 유니티 기존의 랜더링 파이프 라인에 대해서 간단히 알아보고 가시죠.
